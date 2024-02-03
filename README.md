@@ -12,15 +12,15 @@ Family Travel Tracker is a web application that allows users to track the countr
 
 **First View:**  
   
-![First View](assets\first.png)
+![First View](https://github.com/NikhilKalloli/Family-Travel-Tracker/blob/main/assets/first.png)
 
 **Second View:**  
    
-![Extended view](assets\second.png)
+![Extended view](https://github.com/NikhilKalloli/Family-Travel-Tracker/blob/main/assets/second.png)
 
 **Add Family Members**  
   
-![Extended view](assets\third.png)
+![Extended view](https://github.com/NikhilKalloli/Family-Travel-Tracker/blob/main/assets/third.png)
  
 ## Installation 🛠️
 
