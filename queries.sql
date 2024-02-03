@@ -13,7 +13,7 @@ user_id INTEGER REFERENCES users(id)
 );
 
 INSERT INTO users (name, color)
-VALUES ('Nikhil', 'teal'), ('Jack', 'powderblue');
+VALUES ('Nikhil', 'teal'), ('Harry', 'powderblue');
 
 INSERT INTO visited_countries (country_code, user_id)
 VALUES ('IO', 1), ('GB', 1), ('CA', 2), ('FR', 2 );
