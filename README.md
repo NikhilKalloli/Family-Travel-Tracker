@@ -8,7 +8,20 @@ Family Travel Tracker is a web application that allows users to track the countr
 - **User Management:** Create and manage user profiles with unique colors for personalization.
 - **Statistics:** View statistics about the total number of countries visited and unique countries per user.
 
+## Screenshots 📷
 
+**First View:**  
+  
+![First View](assets\first.png)
+
+**Second View:**  
+   
+![Extended view](assets\second.png)
+
+**Add Family Members**  
+  
+![Extended view](assets\third.png)
+ 
 ## Installation 🛠️
 
 1. Clone the repository:
