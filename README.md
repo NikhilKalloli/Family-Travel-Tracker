@@ -24,9 +24,9 @@ Family Travel Tracker is a web application that allows users to track the countr
   - Configure your PostgreSQL connection string from [Render](https://render.com/).
 
 5. Initialise the Database:
-  ```
-  node init.js
-  ```
+      ```
+      node init.js
+      ```
 
 6. Start the application:
     ```
