@@ -4,7 +4,7 @@ Family Travel Tracker is a web application that allows users to track the countr
 
 ## Key Features
 
-- **Country Tracking:** Easily add and remove countries from your visited list.
+- **Country Tracking:** Easily add countries from your visited list.
 - **User Management:** Create and manage user profiles with unique colors for personalization.
 - **Statistics:** View statistics about the total number of countries visited and unique countries per user.
 
