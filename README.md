@@ -8,19 +8,9 @@ Family Travel Tracker is a web application that allows users to track the countr
 - **User Management:** Create and manage user profiles with unique colors for personalization.
 - **Statistics:** View statistics about the total number of countries visited and unique countries per user.
 
-## Screenshots 📷
-
-**First View:**  
   
-![First View](https://github.com/NikhilKalloli/Family-Travel-Tracker/blob/main/assets/first.png)
+https://github.com/NikhilKalloli/Family-Travel-Tracker/assets/123582746/ab80fc8f-41b4-4769-bc3d-5f7eaabe6e3b
 
-**Second View:**  
-   
-![Extended view](https://github.com/NikhilKalloli/Family-Travel-Tracker/blob/main/assets/second.png)
-
-**Add Family Members**  
-  
-![Extended view](https://github.com/NikhilKalloli/Family-Travel-Tracker/blob/main/assets/third.png)
  
 ## Installation 🛠️
 
