@@ -267,7 +267,7 @@ async function initializeDatabase() {
     try {
       await db.connect();
 
-      await db.query('DROP TABLE IF EXISTS visited_countries, users');
+      await db.query('DROP TABLE IF EXISTS visited_countries, users, countries');
 
 
       // Create the 'users' table
@@ -296,6 +296,15 @@ async function initializeDatabase() {
         country_code CHAR(2) NOT NULL
       )
     `);
+
+     // Insert data into the 'countries' table
+     for (const row of csvData) {
+      // console.log('Inserting row into countries:', row);
+      await db.query(`
+        INSERT INTO countries (country_name, country_code)
+        VALUES ($1, $2)
+      `, [row[2], row[1]]);
+    }
   
       // Insert data into the 'users' table
       await db.query(`
@@ -309,13 +318,7 @@ async function initializeDatabase() {
         VALUES ('IO', 1), ('GB', 1), ('CA', 2), ('FR', 2)
       `);
 
-    // Insert data into the 'countries' table
-      for (const row of csvData) {
-        await db.query(`
-          INSERT INTO countries (country_name, country_code)
-          VALUES ($1, $2)
-        `, [row.country_name, row.country_code]);
-      }
+   
   
   
       console.log('Database initialized successfully!');
